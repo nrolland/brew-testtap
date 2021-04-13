@@ -11,6 +11,6 @@ class TestBrew < Formula
   # depends_on "cmake" => :build
 
   def install
-    bin.install "test-brew"
+    bin.install "test-brew.rb"
   end
 end
