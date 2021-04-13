@@ -4,12 +4,13 @@
 class TestBrew < Formula
   desc "brew recipe test"
   homepage ""
-  url "https://github.com/nrolland/test-brew/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "24c796d960aaae074fa3b6208c879607d1945eed0d0340ab62c9fa32aac7c8e4"
+  url "https://github.com/nrolland/test-brew/archive/refs/tags/v2.0.0.tar.gz"
+  sha256 "a42b15dd7fe1b5efc38565381904962783447981a9a8491351319e33c1b1e612"
   license ""
+
+  # depends_on "cmake" => :build
 
   def install
     bin.install "test-brew"
   end
-
 end
